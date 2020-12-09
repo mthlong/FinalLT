@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="#CDCBCB"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic_setting" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="58dp"
+                android:layout_height="29dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingTop="12dp"
+                android:text="Tất cả" />
+
+            <Spinner
+                android:id="@+id/spChiNhanh"
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:backgroundTint="#292B2A">
+
+            </Spinner>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="229dp"
+        android:layout_height="44dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp"
+        android:layout_weight="1"
+        android:paddingTop="12dp"
+        android:text="04/11/2020" />
+
+    <Spinner
+        android:id="@+id/spChiNhanh2"
+        android:layout_width="179dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="120dp"
+        android:backgroundTint="#292B2A">
+
+    </Spinner>
+
+
+    <LinearLayout
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="12dp"
+            android:text="04/12/2020" />
+
+        <Spinner
+            android:id="@+id/spChiNhanh1"
+            android:layout_width="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:backgroundTint="#292B2A">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="50dp"
+        android:background="#E3E2E2"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text="27/11/2020" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="655dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="7dp"
+                android:paddingTop="7dp"
+                android:text="Đồ ăn            •"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="          Đã xong"
+                android:textColor="#25712F"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="                   #27110-59283983"
+                android:textColor="#8C8C8C" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#8C8C8C" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:orientation="horizontal"
+            android:paddingTop="9dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="58dp"
+                android:layout_height="73dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingBottom="9dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/food12" />
+
+            <LinearLayout
+                android:layout_width="206dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Quán Khánh - Ốc đặc sản miền Trung"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="100-102 Mai Lão Bạng, Thuận Phước"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingRight="10dp">
+
+                <Button
+
+                    android:id="@+id/button2"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="sans-serif"
+                    android:text="Đặt lại"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#2196F3"
+                    android:textColorLink="#F4F4F4"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#8C8C8C" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="324dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="10dp"
+                    android:text="16:56 - 5 Phần - 82,000đ - Tiền mặt"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp">
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="27dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton_2"
+                    android:text="Đánh giá"
+                    android:textSize="9dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="7dp"
+                    android:text="Nước uống   •"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="        Đã xong"
+                    android:textColor="#25712F"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="                       #27110-59283261"
+                    android:textColor="#8C8C8C" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#8C8C8C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:orientation="horizontal"
+                android:paddingTop="9dp">
+
+                <LinearLayout
+                    android:layout_width="85dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingBottom="9dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/food11" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="237dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bông - Trà sữa trân châu đường đen"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="100-102 Mai Lão Bạng, Thuận Phước"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingRight="10dp">
+
+                    <Button
+
+                        android:id="@+id/button4"
+                        android:layout_width="68dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedbutton"
+                        android:fontFamily="sans-serif"
+                        android:text="Đặt lại"
+                        android:textColor="#FFFFFF"
+                        android:textColorHighlight="#2196F3"
+                        android:textColorLink="#F4F4F4"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:background="#8C8C8C" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="323dp"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="12dp"
+                        android:text="20:45 - 7 Phần - 149,000đ - Tiền mặt"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingTop="8dp"
+                    android:paddingRight="10dp">
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/roundedbutton_2"
+                        android:text="Đánh giá"
+                        android:textSize="9dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#E3E2E2"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:text="25/11/2020" />
+        </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="178dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="7dp"
+                    android:paddingTop="7dp"
+                    android:text="Nước uống   •"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="        Đã xong"
+                    android:textColor="#25712F"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingTop="5dp"
+                    android:text="                   #25110-592832616"
+                    android:textColor="#8C8C8C" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#8C8C8C" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="83dp"
+            android:orientation="horizontal"
+            android:paddingTop="8dp">
+
+            <LinearLayout
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="9dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/food14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sữa chua đánh đá vỉa hè 2/9 - Alista"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="100-102 Mai Lão Bạng, Thuận Phước"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp">
+
+                <Button
+
+                    android:id="@+id/button12"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="sans-serif"
+                    android:text="Đặt lại"
+                    android:textColor="#FFFFFF"
+                    android:textColorHighlight="#2196F3"
+                    android:textColorLink="#F4F4F4"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:background="#8C8C8C" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="325dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="12dp"
+                    android:text="20:45 - 7 Phần - 149,000đ - Tiền mặt"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="8dp"
+                android:paddingRight="10dp">
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/roundedbutton_2"
+                    android:text="Đánh giá"
+                    android:textSize="9dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

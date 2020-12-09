@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/btt_back"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <RadioGroup
+            android:id="@+id/group_odau_angi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/custom_backgroud_radiobuttonghop_trangchu"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_odau"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_radio_odau"
+                android:button="@android:color/transparent"
+                android:checked="true"
+                android:padding="10dp"
+                android:text="Ở đâu"
+                android:textColor="@drawable/changtext_radio_trangchu" />
+
+            <RadioButton
+                android:id="@+id/rb_angi"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_radio_odau"
+                android:button="@android:color/transparent"
+                android:padding="10dp"
+                android:text="Ăn gì"
+                android:textColor="@drawable/changtext_radio_trangchu" />
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/ic_add_white_24dp" />
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager_trangchu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </androidx.viewpager.widget.ViewPager>
+</LinearLayout>
